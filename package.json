@@ -1,6 +1,6 @@
 {
   "name": "fjf-one",
-  "version": "1.0.3",
+  "version": "1.0.9",
   "description": "",
   "main": "dist/webpack-numbers.js",
   "module": "src/index.js",
@@ -13,7 +13,12 @@
   "license": "ISC",
   "devDependencies": {
     "lodash": "^4.17.21",
+    "lodash-es": "^4.17.21",
     "webpack": "^5.36.2",
     "webpack-cli": "^4.6.0"
+  },
+  "dependencies": {
+    "dom7": "^4.0.6",
+    "snabbdom": "^3.6.2"
   }
 }
